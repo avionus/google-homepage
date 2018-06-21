@@ -1,13 +1,95 @@
 body {
 	font-family: "Montserrat", sans-serif;
 }
-p {
-	display: inline;
-	font-size: 100px;
+
+a {
+	text-decoration: none;
+	color: black;
+	text-align: center;
 }
-p, .o {
-	color: red;
+
+.header {
+	text-align: center;
+	font-size: 13px;
 }
-p, .x {
-	color: yellow;
+
+.header .icon {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	position: relative;
+	top: 15px;
+	border: 2px red solid;
+}
+
+.header .notification {
+	background-color: orange;
+	display: inline-block;
+	position: relative;
+	height: 15px;
+	width: 15px;
+	border-radius: 100px;
+	margin-right: 20px;
+	font-weight: bold;
+	border: 10px orange solid;
+
+}
+
+.header .about {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.header .store {
+	display: inline-block;
+	margin-right: 800px;
+}
+
+.header .gmail {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.header .images {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.header .options {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.logo img {
+	height: 100px;
+	width: 350px;
+	margin: 200px 400px 0px 450px;
+}
+
+.search {
+	padding-left: 330px;
+	padding-right: 400px;
+	margin-top: 10px;
+	
+}
+
+.a {
+	border: 3px black solid;
+	background-color: orange;
+}
+
+.b {
+	border: 3px black solid;
+	background-color: orange;
+	padding: 100px;
+	margin-top: 500px;
+	display: inline-block;
+}
+
+.footer{
+	background-color: gray;
+	position: relative;
+	border: 3px black solid;
+	top: 100px;
+
 }
