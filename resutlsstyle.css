@@ -14,15 +14,15 @@ a {
 }
 
 .header{
-	border: 3px black solid;
-	background-color: gray;
+	border-bottom: 1px gray solid;
+	background-color: #f7f7f7;
 	display: inline-block;
 	padding-bottom: 30px;
 	grid-column: 1 / span 9;
 }
 
 .header a{
-	color: black;
+	color: gray;
 	font-size: 12px;
 	text-align: center;
 }
@@ -30,6 +30,9 @@ a {
 .header .logo {
 	height: 50px;
 	width: 150px;
+	position: relative;
+	top: 20px;
+	margin-left: 10px;
 }
 
 .header .icon {
@@ -62,12 +65,16 @@ a {
 }
 
 .header .all {
-	margin-left: 160px;
+	margin-left: 170px;
 	padding-bottom: 30px;
 }
 
 .header .all:hover{
 	color: black;
+}
+
+.header .all:active, .images:active, .news:active, .videos:active, .shopping:active, .more:active, .tools:active, .settings:active {
+	border-bottom: 5px #58a1ef solid;
 }
 
 .header .images, .news, .videos, .shopping, .more, .tools {
@@ -80,7 +87,6 @@ a {
 	color: black;
 
 }
-
 
 .header .settings {
 	margin-left: 100px;
