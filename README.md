@@ -1,3 +1,5 @@
 Hello!
 
 This is the very first project I'm doing for the Odin Project where I'm learning to be a web developer. By the end of this project, I should have a semi-functioning (mostly clickable) verison of the Google Homepage made entirely of HTML and CSS. If I feel comfortable, I may even do the results page, but we'll see when I get there. 
+
+I started this on the 20th with this readme, and today, half way through the 24th I've completed both the landing page and the result's page. In doing so, I learned how to use grids, tables, fiddled around with lots of classes and divs n whatnot, and did A LOT of googling. Like so much. These pages aren't perfect renditions/mockups...hell over half the links don't go anywhere and neither of the search bars work, but it looks ok and more importantly I'm excited to see how much better I'll get the more I practice. I'd love to come back to this project and clean it up when I know how to code better. 
