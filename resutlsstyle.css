@@ -1,0 +1,164 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	height: 1000px;
+	width: 1250px;
+	display: inline-grid;
+	grid-template-rows: repeat(8, 1fr); 
+	grid-template-columns: repeat(8, 1fr);	
+	grid-gap: 20px;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.header{
+	border: 3px black solid;
+	background-color: gray;
+	display: inline-block;
+	padding-bottom: 30px;
+	grid-column: 1 / span 9;
+}
+
+.header a{
+	color: black;
+	font-size: 12px;
+	text-align: center;
+}
+
+.header .logo {
+	height: 50px;
+	width: 150px;
+}
+
+.header .icon {
+	height: 40px;
+	width: 40px;
+	border-radius: 50px;
+	position: relative;
+	top: 15px;
+	border: 2px #f73d13 solid;
+}
+
+.header .options{
+	margin-left: 300px;
+}
+
+.header .notification {
+	background-color: #f73d13;
+	color: white;
+	display: inline-block;
+	position: relative;
+	height: 15px;
+	width: 15px;
+	border-radius: 100px;
+	margin-right: 10px;
+	font-weight: bold;
+	font-size: 12px;
+	border: 10px #f73d13 solid;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.header .all {
+	margin-left: 160px;
+	padding-bottom: 30px;
+}
+
+.header .all:hover{
+	color: black;
+}
+
+.header .images, .news, .videos, .shopping, .more, .tools {
+	margin-left: 30px;
+	padding-bottom: 30px;
+
+}
+
+.header .images:hover, .news:hover, .videos:hover, .shopping:hover, .more:hover, .tools:hover {
+	color: black;
+
+}
+
+
+.header .settings {
+	margin-left: 100px;
+	padding-bottom: 30px;
+}
+
+.header .settings:hover {
+	color: black;
+}
+
+.results1 {
+	border: 3px black solid;
+	display: inline-block;
+	grid-column: 2 / span 4;
+	grid-row: 2 / span 1;
+}
+
+.resultbox{
+	border: 3px black solid;
+	display: inline-block;
+	grid-column: 2 / span 4;
+	grid-row: 3 / span 1;
+}
+
+.results2{
+	border: 3px black solid;
+	display: inline-block;
+	grid-column: 2 / span 4;
+	grid-row: 4 / span 1;
+}
+
+.relatedsearch {
+	border: 3px black solid;
+	display: inline-block;
+	grid-column: 2 / span 4;
+
+}
+
+.sidebar {
+	border: 3px black solid;
+	display: block;
+	grid-column: 6 / span 4;
+	grid-row: 2 / span 2;
+}
+.sidebar img {
+	height: 50px;
+	width: 50px;
+}
+
+.bottomnav{
+	border: 3px black solid;
+	grid-column: 3 / span 3;
+}
+.bottomnav .g {
+	color: blue;
+	display: inline;
+}
+.bottomnav .o, .e {
+	color: red;
+	display: inline;
+}
+
+.bottomnav .l {
+	color: green;
+	display: inline;
+}
+
+.bottomnav .x {
+	color: yellow;
+	display: inline;
+}
+.footer{
+	border: 3px black solid;
+	display: inline-block;
+	background-color: gray;
+	grid-column: 1/ span 9;
+}
+.footer img {
+	height: 20px;
+	width: 20px;
+}

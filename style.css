@@ -1,5 +1,5 @@
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -19,11 +19,12 @@ a {
 	border-radius: 50px;
 	position: relative;
 	top: 15px;
-	border: 2px red solid;
+	border: 2px #f73d13 solid;
 }
 
 .header .notification {
-	background-color: orange;
+	background-color: #f73d13;
+	color: white;
 	display: inline-block;
 	position: relative;
 	height: 15px;
@@ -31,7 +32,7 @@ a {
 	border-radius: 100px;
 	margin-right: 20px;
 	font-weight: bold;
-	border: 10px orange solid;
+	border: 10px #f73d13 solid;
 
 }
 
@@ -70,26 +71,71 @@ a {
 	padding-left: 330px;
 	padding-right: 400px;
 	margin-top: 10px;
-	
 }
 
 .a {
-	border: 3px black solid;
-	background-color: orange;
+	background-color: #e0e2e5;
+	padding: 10px;
+	margin-top: 50px;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 470px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 
 .b {
-	border: 3px black solid;
-	background-color: orange;
-	padding: 100px;
-	margin-top: 500px;
+	background-color: #e0e2e5;
+	padding: 10px;
+	margin-top: 20px;
 	display: inline-block;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.a:hover{
+	border: 1px gray solid;
+	color: black;
+	box-shadow: 2px 2px 10px #e0e2e5;
+}
+
+.b:hover{
+	border: 1px gray solid;
+	color: black;
+	box-shadow: 2px 2px 10px #e0e2e5;
 }
 
 .footer{
-	background-color: gray;
+	background-color: #e0e2e5;
 	position: relative;
-	border: 3px black solid;
-	top: 100px;
+	height: 30px;
+	top: 200px;
+	font-size: 15px;
+	border-top: 1px gray solid;
+}
+.footer .ads{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.footer .biz {
+	margin-right: 800px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.footer .privacy {
+	display: inline-block;
+	margin-right: 20px;
+}
 
+.footer .terms {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+.footer .settings {
+	display: inline-block;
+	margin-left: 10px;
 }
