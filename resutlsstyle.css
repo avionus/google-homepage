@@ -33,6 +33,7 @@ a {
 	position: relative;
 	top: 20px;
 	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .header .icon {
@@ -85,7 +86,6 @@ a {
 
 .header .images:hover, .news:hover, .videos:hover, .shopping:hover, .more:hover, .tools:hover {
 	color: black;
-
 }
 
 .header .settings {
@@ -98,10 +98,26 @@ a {
 }
 
 .results1 {
-	border: 3px black solid;
 	display: inline-block;
 	grid-column: 2 / span 4;
 	grid-row: 2 / span 1;
+}
+.results1 p, .results2 p {
+	padding: 1px;
+	margin: 1px;
+	font-size: 14px;
+}
+
+.results1 a, .results2 a, .relatedsearch a, .sidebar a, .bottomnav a, .footer a {
+	color: #0619b1;
+}
+.results1 .onea {
+	color: gray;
+	padding-bottom: 20px;
+}
+
+.results1 .onec, .results2 .twoa {
+	color: forestgreen;
 }
 
 .resultbox{
@@ -112,17 +128,33 @@ a {
 }
 
 .results2{
-	border: 3px black solid;
 	display: inline-block;
 	grid-column: 2 / span 4;
 	grid-row: 4 / span 1;
 }
 
-.relatedsearch {
-	border: 3px black solid;
-	display: inline-block;
-	grid-column: 2 / span 4;
+.results2 .twob {
+	padding-bottom: 15px;
+}
 
+.relatedsearch {
+	grid-column: 2 / span 4;
+	font-weight: bold;
+}
+
+.left {
+	grid-column: 2 /span 2;
+	font-size: 15px;
+}
+
+.right {
+	grid-column: 4 / span 2;
+	font-size: 15px;
+}
+.right a, .left a {
+	display: inline-block;
+	padding-bottom: 10px;
+	color: #0619b1;
 }
 
 .sidebar {
@@ -137,27 +169,51 @@ a {
 }
 
 .bottomnav{
-	border: 3px black solid;
-	grid-column: 3 / span 3;
+	grid-column: 2 / span 4;
+	font-size: 30px;
 }
 .bottomnav .g {
-	color: blue;
+	color: #58a1ef;
 	display: inline;
 }
+.bottomnav #GEE {
+	font-weight: bolder;
+	padding-left: 100px;
+}
 .bottomnav .o, .e {
-	color: red;
+	color: #f44a41;
 	display: inline;
 }
 
 .bottomnav .l {
-	color: green;
+	color: #69b754;
 	display: inline;
 }
 
 .bottomnav .x {
-	color: yellow;
+	color: #f4c542;
 	display: inline;
 }
+
+.bottomnav .one {
+	margin-left: 165px;
+}
+
+.bottomnav .number, .bottomnav .next, .bottomnav .one {
+	font-size: 16px;
+	color: black;
+}
+
+.bottomnav .next {
+	margin: 60px;
+}
+
+.bottomnav .number:hover, .bottomnav .next:hover, .bottomnav .one:hover {
+	font-size: 16px;
+	color: #58a1ef;
+	border-bottom: 1px #58a1ef solid;
+}
+
 .footer{
 	border: 3px black solid;
 	display: inline-block;
